@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
 
-class Canon extends StatefulWidget {
+class Headsets extends StatefulWidget {
   @override
-  _CanonState createState() => _CanonState();
+  _HeadsetsState createState() => _HeadsetsState();
 }
 
-class _CanonState extends State<Canon> {
+class _HeadsetsState extends State<Headsets> {
   void openurl() {
     try {
       String url = "https://github.com/Akash701";
