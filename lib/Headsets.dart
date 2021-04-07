@@ -61,7 +61,7 @@ class _HeadsetsState extends State<Headsets> {
                     child: Row(
                       children: [
                         Text(
-                          "4.8",
+                          "3.9",
                           style: TextStyle(color: Colors.black),
                         ),
                         Icon(
@@ -96,7 +96,7 @@ class _HeadsetsState extends State<Headsets> {
                                 shape: BoxShape.rectangle,
                                 image: DecorationImage(
                                     image: AssetImage(
-                                      'images/camera.jpg',
+                                      'images/headsets.png',
                                     ),
                                     fit: BoxFit.fill)),
                           ),
@@ -109,9 +109,9 @@ class _HeadsetsState extends State<Headsets> {
                               child: IconButton(
                                 onPressed: () {},
                                 icon: Icon(
-                                  Icons.favorite_rounded,
+                                  Icons.favorite_outline_rounded,
                                   size: 30,
-                                  color: Colors.red,
+                                  color: Colors.black,
                                 ),
                               ),
                             ),
@@ -131,7 +131,7 @@ class _HeadsetsState extends State<Headsets> {
                             shape: BoxShape.rectangle,
                             image: DecorationImage(
                                 image: AssetImage(
-                                  'images/canon2.png',
+                                  'images/head1.jpg',
                                 ),
                                 fit: BoxFit.fill)),
                       ),
@@ -148,7 +148,7 @@ class _HeadsetsState extends State<Headsets> {
                             shape: BoxShape.rectangle,
                             image: DecorationImage(
                                 image: AssetImage(
-                                  'images/canon3.jpg',
+                                  'images/head2.jpeg',
                                 ),
                                 fit: BoxFit.fill)),
                       ),
@@ -165,7 +165,7 @@ class _HeadsetsState extends State<Headsets> {
                             shape: BoxShape.rectangle,
                             image: DecorationImage(
                                 image: AssetImage(
-                                  'images/canon4.jpg',
+                                  'images/head3.jpg',
                                 ),
                                 fit: BoxFit.fill)),
                       ),
@@ -189,7 +189,7 @@ class _HeadsetsState extends State<Headsets> {
                       Container(
                         margin: EdgeInsets.only(left: 10, right: 10),
                         child: Text(
-                          "B&H Canon EOS 80D DSLR Camera with 18-55mm Lens",
+                          "Headphones Game Headset F05 Headphone Gaming Headset",
                           style: TextStyle(
                             fontSize: 20,
                           ),
@@ -201,7 +201,7 @@ class _HeadsetsState extends State<Headsets> {
                       Container(
                         margin: EdgeInsets.only(left: 10, right: 10),
                         child: Text(
-                          'Characterized by versatile imaging specs, the Canon EOS 80D further clarifies itself using a pair of robust focusing systems and an intuitive design. Featuring a 24.2MP APS-C CMOS sensor and DIGIC 6 image processor....',
+                          'Cisco Headset 730 is a stylish, Red Dot 2020 award-winning device with smooth curves and well-proportioned components. It is available in carbon black and platinum color choices. ....',
                           style: TextStyle(
                             fontSize: 18,
                           ),
@@ -232,7 +232,47 @@ class _HeadsetsState extends State<Headsets> {
                         ),
                       ),
                       SizedBox(
-                        height: 20,
+                        height: 10,
+                      ),
+                      Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceAround,
+                        children: [
+                          Container(
+                            height: 55,
+                            width: 55,
+                            decoration: BoxDecoration(
+                              color: Colors.blue[700],
+                              shape: BoxShape.circle,
+                            ),
+                          ),
+                          Container(
+                            height: 45,
+                            width: 45,
+                            decoration: BoxDecoration(
+                              color: Colors.black,
+                              shape: BoxShape.circle,
+                            ),
+                          ),
+                          Container(
+                            height: 45,
+                            width: 45,
+                            decoration: BoxDecoration(
+                              color: Colors.green,
+                              shape: BoxShape.circle,
+                            ),
+                          ),
+                          Container(
+                            height: 45,
+                            width: 45,
+                            decoration: BoxDecoration(
+                              color: Colors.red,
+                              shape: BoxShape.circle,
+                            ),
+                          ),
+                        ],
+                      ),
+                      SizedBox(
+                        height: 10,
                       ),
                       Container(
                         padding: EdgeInsets.all(10),

@@ -88,7 +88,9 @@ class PopularProducts extends StatelessWidget {
               Column(
                 children: [
                   ElevatedButton(
-                    onPressed: () {},
+                    onPressed: () {
+                      Navigator.pushNamed(context, '3');
+                    },
                     style: ElevatedButton.styleFrom(primary: Colors.white),
                     child: Container(
                       width: 150,
@@ -121,7 +123,9 @@ class PopularProducts extends StatelessWidget {
               Column(
                 children: [
                   ElevatedButton(
-                    onPressed: () {},
+                    onPressed: () {
+                      Navigator.pushNamed(context, '4');
+                    },
                     style: ElevatedButton.styleFrom(primary: Colors.white),
                     child: Container(
                       width: 150,

@@ -61,7 +61,7 @@ class _PredatorState extends State<Predator> {
                     child: Row(
                       children: [
                         Text(
-                          "4.8",
+                          "5",
                           style: TextStyle(color: Colors.black),
                         ),
                         Icon(
@@ -96,7 +96,7 @@ class _PredatorState extends State<Predator> {
                                 shape: BoxShape.rectangle,
                                 image: DecorationImage(
                                     image: AssetImage(
-                                      'images/camera.jpg',
+                                      'images/pradator.jpg',
                                     ),
                                     fit: BoxFit.fill)),
                           ),
@@ -118,57 +118,6 @@ class _PredatorState extends State<Predator> {
                           ),
                         ],
                       ),
-                      SizedBox(
-                        width: 20,
-                      ),
-                      Container(
-                        width: 300,
-                        height: 300,
-                        decoration: BoxDecoration(
-                            borderRadius: BorderRadius.all(
-                              Radius.circular(20),
-                            ),
-                            shape: BoxShape.rectangle,
-                            image: DecorationImage(
-                                image: AssetImage(
-                                  'images/canon2.png',
-                                ),
-                                fit: BoxFit.fill)),
-                      ),
-                      SizedBox(
-                        width: 20,
-                      ),
-                      Container(
-                        width: 300,
-                        height: 300,
-                        decoration: BoxDecoration(
-                            borderRadius: BorderRadius.all(
-                              Radius.circular(20),
-                            ),
-                            shape: BoxShape.rectangle,
-                            image: DecorationImage(
-                                image: AssetImage(
-                                  'images/canon3.jpg',
-                                ),
-                                fit: BoxFit.fill)),
-                      ),
-                      SizedBox(
-                        width: 20,
-                      ),
-                      Container(
-                        width: 300,
-                        height: 300,
-                        decoration: BoxDecoration(
-                            borderRadius: BorderRadius.all(
-                              Radius.circular(20),
-                            ),
-                            shape: BoxShape.rectangle,
-                            image: DecorationImage(
-                                image: AssetImage(
-                                  'images/canon4.jpg',
-                                ),
-                                fit: BoxFit.fill)),
-                      ),
                     ],
                   ),
                 ],
@@ -189,7 +138,7 @@ class _PredatorState extends State<Predator> {
                       Container(
                         margin: EdgeInsets.only(left: 10, right: 10),
                         child: Text(
-                          "B&H Canon EOS 80D DSLR Camera with 18-55mm Lens",
+                          "Acer Predator Helios 300 Gaming Laptop",
                           style: TextStyle(
                             fontSize: 20,
                           ),
@@ -201,7 +150,7 @@ class _PredatorState extends State<Predator> {
                       Container(
                         margin: EdgeInsets.only(left: 10, right: 10),
                         child: Text(
-                          'Characterized by versatile imaging specs, the Canon EOS 80D further clarifies itself using a pair of robust focusing systems and an intuitive design. Featuring a 24.2MP APS-C CMOS sensor and DIGIC 6 image processor....',
+                          'Acer Predator Helios 300 Gaming Laptop, 15.6" Full HD IPS, Intel i7 CPU, 16GB DDR4 RAM, 256GB SSD, GeForce GTX 1060-6GB, VR Ready, Red Backlit KB, Metal Chassis, Windows 10 64-bit, G3-571-77QK....',
                           style: TextStyle(
                             fontSize: 18,
                           ),

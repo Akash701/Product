@@ -61,7 +61,7 @@ class _Ps4State extends State<Ps4> {
                     child: Row(
                       children: [
                         Text(
-                          "4.8",
+                          "4",
                           style: TextStyle(color: Colors.black),
                         ),
                         Icon(
@@ -96,7 +96,7 @@ class _Ps4State extends State<Ps4> {
                                 shape: BoxShape.rectangle,
                                 image: DecorationImage(
                                     image: AssetImage(
-                                      'images/camera.jpg',
+                                      'images/ps4.png',
                                     ),
                                     fit: BoxFit.fill)),
                           ),
@@ -118,57 +118,6 @@ class _Ps4State extends State<Ps4> {
                           ),
                         ],
                       ),
-                      SizedBox(
-                        width: 20,
-                      ),
-                      Container(
-                        width: 300,
-                        height: 300,
-                        decoration: BoxDecoration(
-                            borderRadius: BorderRadius.all(
-                              Radius.circular(20),
-                            ),
-                            shape: BoxShape.rectangle,
-                            image: DecorationImage(
-                                image: AssetImage(
-                                  'images/canon2.png',
-                                ),
-                                fit: BoxFit.fill)),
-                      ),
-                      SizedBox(
-                        width: 20,
-                      ),
-                      Container(
-                        width: 300,
-                        height: 300,
-                        decoration: BoxDecoration(
-                            borderRadius: BorderRadius.all(
-                              Radius.circular(20),
-                            ),
-                            shape: BoxShape.rectangle,
-                            image: DecorationImage(
-                                image: AssetImage(
-                                  'images/canon3.jpg',
-                                ),
-                                fit: BoxFit.fill)),
-                      ),
-                      SizedBox(
-                        width: 20,
-                      ),
-                      Container(
-                        width: 300,
-                        height: 300,
-                        decoration: BoxDecoration(
-                            borderRadius: BorderRadius.all(
-                              Radius.circular(20),
-                            ),
-                            shape: BoxShape.rectangle,
-                            image: DecorationImage(
-                                image: AssetImage(
-                                  'images/canon4.jpg',
-                                ),
-                                fit: BoxFit.fill)),
-                      ),
                     ],
                   ),
                 ],
@@ -189,7 +138,7 @@ class _Ps4State extends State<Ps4> {
                       Container(
                         margin: EdgeInsets.only(left: 10, right: 10),
                         child: Text(
-                          "B&H Canon EOS 80D DSLR Camera with 18-55mm Lens",
+                          "PS4 Pro - gaming evolved with the most powerful PS4TM console.",
                           style: TextStyle(
                             fontSize: 20,
                           ),
@@ -201,7 +150,7 @@ class _Ps4State extends State<Ps4> {
                       Container(
                         margin: EdgeInsets.only(left: 10, right: 10),
                         child: Text(
-                          'Characterized by versatile imaging specs, the Canon EOS 80D further clarifies itself using a pair of robust focusing systems and an intuitive design. Featuring a 24.2MP APS-C CMOS sensor and DIGIC 6 image processor....',
+                          'lay the latest PS4 blockbuster games and PlayStation exclusives in stunning 4K from the PS4 Pro console on your 4K TV, and stream your favourite entertainment with incredible visual detail from 4K compatible services.....',
                           style: TextStyle(
                             fontSize: 18,
                           ),
