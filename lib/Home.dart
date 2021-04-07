@@ -45,8 +45,13 @@ class _HomeState extends State<Home> {
                   ),
                 ),
                 Container(
-                  padding: EdgeInsets.all(10),
-                  child: Icon(Icons.shopping_cart_outlined),
+                  child: IconButton(
+                    onPressed: () {},
+                    icon: Icon(
+                      Icons.shopping_cart_outlined,
+                      color: Colors.black,
+                    ),
+                  ),
                   decoration: BoxDecoration(
                     shape: BoxShape.circle,
                     color: Colors.grey[300],
@@ -57,8 +62,12 @@ class _HomeState extends State<Home> {
                 ),
                 Stack(children: [
                   Container(
-                    padding: EdgeInsets.all(10),
-                    child: Icon(Icons.notifications_none_outlined),
+                    child: IconButton(
+                      icon: Icon(
+                        Icons.notifications_none_outlined,
+                        color: Colors.black,
+                      ),
+                    ),
                     decoration: BoxDecoration(
                       shape: BoxShape.circle,
                       color: Colors.grey[300],

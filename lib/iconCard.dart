@@ -12,10 +12,13 @@ class IconsCard extends StatelessWidget {
               width: 70,
               height: 70,
               // margin: EdgeInsets.only(left: 20),
-              child: Icon(
-                Icons.lightbulb_outline_rounded,
-                size: 40,
-                color: Colors.white,
+              child: IconButton(
+                onPressed: () {},
+                icon: Icon(
+                  Icons.lightbulb_outline_rounded,
+                  size: 40,
+                  color: Colors.white,
+                ),
               ),
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.all(
@@ -45,10 +48,13 @@ class IconsCard extends StatelessWidget {
               width: 70,
               height: 70,
               // margin: EdgeInsets.only(left: 20),
-              child: Icon(
-                Icons.sticky_note_2_outlined,
-                size: 40,
-                color: Colors.white,
+              child: IconButton(
+                onPressed: () {},
+                icon: Icon(
+                  Icons.sticky_note_2_outlined,
+                  size: 40,
+                  color: Colors.white,
+                ),
               ),
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.all(
@@ -78,10 +84,12 @@ class IconsCard extends StatelessWidget {
               width: 70,
               height: 70,
               // margin: EdgeInsets.only(left: 20),
-              child: Icon(
-                Icons.videogame_asset_outlined,
-                size: 40,
-                color: Colors.white,
+              child: IconButton(
+                icon: Icon(
+                  Icons.videogame_asset_outlined,
+                  size: 40,
+                  color: Colors.white,
+                ),
               ),
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.all(
@@ -111,10 +119,12 @@ class IconsCard extends StatelessWidget {
               width: 70,
               height: 70,
               // margin: EdgeInsets.only(left: 20),
-              child: Icon(
-                Icons.card_giftcard_outlined,
-                size: 40,
-                color: Colors.white,
+              child: IconButton(
+                icon: Icon(
+                  Icons.card_giftcard_outlined,
+                  size: 40,
+                  color: Colors.white,
+                ),
               ),
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.all(
