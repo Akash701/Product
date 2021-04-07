@@ -17,17 +17,21 @@ class PopularProducts extends StatelessWidget {
               Column(
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
                 children: [
-                  Container(
-                    width: 150,
-                    height: 150,
-                    decoration: BoxDecoration(
-                        borderRadius: BorderRadius.all(
-                          Radius.circular(20),
-                        ),
-                        shape: BoxShape.rectangle,
-                        image: DecorationImage(
-                            image: AssetImage('images/camera.jpg'),
-                            fit: BoxFit.fill)),
+                  ElevatedButton(
+                    style: ElevatedButton.styleFrom(primary: Colors.white),
+                    onPressed: () {},
+                    child: Container(
+                      width: 150,
+                      height: 150,
+                      decoration: BoxDecoration(
+                          borderRadius: BorderRadius.all(
+                            Radius.circular(20),
+                          ),
+                          shape: BoxShape.rectangle,
+                          image: DecorationImage(
+                              image: AssetImage('images/camera.jpg'),
+                              fit: BoxFit.fill)),
+                    ),
                   ),
                   SizedBox(
                     height: 10,
@@ -46,17 +50,21 @@ class PopularProducts extends StatelessWidget {
               ),
               Column(
                 children: [
-                  Container(
-                    width: 150,
-                    height: 150,
-                    decoration: BoxDecoration(
-                        borderRadius: BorderRadius.all(
-                          Radius.circular(20),
-                        ),
-                        shape: BoxShape.rectangle,
-                        image: DecorationImage(
-                            image: AssetImage('images/headsets.png'),
-                            fit: BoxFit.fill)),
+                  ElevatedButton(
+                    onPressed: () {},
+                    style: ElevatedButton.styleFrom(primary: Colors.white),
+                    child: Container(
+                      width: 150,
+                      height: 150,
+                      decoration: BoxDecoration(
+                          borderRadius: BorderRadius.all(
+                            Radius.circular(20),
+                          ),
+                          shape: BoxShape.rectangle,
+                          image: DecorationImage(
+                              image: AssetImage('images/headsets.png'),
+                              fit: BoxFit.fill)),
+                    ),
                   ),
                   SizedBox(
                     height: 10,
@@ -75,17 +83,21 @@ class PopularProducts extends StatelessWidget {
               ),
               Column(
                 children: [
-                  Container(
-                    width: 150,
-                    height: 150,
-                    decoration: BoxDecoration(
-                        borderRadius: BorderRadius.all(
-                          Radius.circular(20),
-                        ),
-                        shape: BoxShape.rectangle,
-                        image: DecorationImage(
-                            image: AssetImage('images/pradator.jpg'),
-                            fit: BoxFit.fill)),
+                  ElevatedButton(
+                    onPressed: () {},
+                    style: ElevatedButton.styleFrom(primary: Colors.white),
+                    child: Container(
+                      width: 150,
+                      height: 150,
+                      decoration: BoxDecoration(
+                          borderRadius: BorderRadius.all(
+                            Radius.circular(20),
+                          ),
+                          shape: BoxShape.rectangle,
+                          image: DecorationImage(
+                              image: AssetImage('images/pradator.jpg'),
+                              fit: BoxFit.fill)),
+                    ),
                   ),
                   SizedBox(
                     height: 10,
@@ -104,17 +116,21 @@ class PopularProducts extends StatelessWidget {
               ),
               Column(
                 children: [
-                  Container(
-                    width: 150,
-                    height: 150,
-                    decoration: BoxDecoration(
-                        borderRadius: BorderRadius.all(
-                          Radius.circular(20),
-                        ),
-                        shape: BoxShape.rectangle,
-                        image: DecorationImage(
-                            image: AssetImage('images/ps4.png'),
-                            fit: BoxFit.fill)),
+                  ElevatedButton(
+                    onPressed: () {},
+                    style: ElevatedButton.styleFrom(primary: Colors.white),
+                    child: Container(
+                      width: 150,
+                      height: 150,
+                      decoration: BoxDecoration(
+                          borderRadius: BorderRadius.all(
+                            Radius.circular(20),
+                          ),
+                          shape: BoxShape.rectangle,
+                          image: DecorationImage(
+                              image: AssetImage('images/ps4.png'),
+                              fit: BoxFit.fill)),
+                    ),
                   ),
                   SizedBox(
                     height: 10,
