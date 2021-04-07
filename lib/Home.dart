@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/painting.dart';
 import 'package:product/iconCard.dart';
+import 'package:product/ImageCard.dart';
 
 class Home extends StatefulWidget {
   @override
@@ -89,7 +90,7 @@ class _HomeState extends State<Home> {
               ],
             ),
             SizedBox(
-              height: 25,
+              height: 20,
             ),
             Container(
               padding: EdgeInsets.only(right: 150, top: 25),
@@ -127,12 +128,41 @@ class _HomeState extends State<Home> {
               ),
             ),
             SizedBox(
-              height: 40,
+              height: 20,
             ),
+
+            /////IconCard////
             IconsCard(),
+            /////IconCard////
             SizedBox(
-              height: 10,
+              height: 20,
             ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
+                Container(
+                  margin: EdgeInsets.only(left: 20),
+                  child: Text(
+                    "Spacial For You",
+                    style: TextStyle(
+                      fontSize: 20,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+                ),
+                Container(
+                  margin: EdgeInsets.only(right: 20),
+                  child: Opacity(
+                    opacity: 0.6,
+                    child: Text("See more"),
+                  ),
+                ),
+              ],
+            ),
+            SizedBox(
+              height: 30,
+            ),
+            ImagesCard(),
           ],
         ),
       ),
